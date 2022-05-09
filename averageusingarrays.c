@@ -12,8 +12,7 @@ int main()
     for(int i=0;i<size;i++)
     {
         scanf("%d",&p[i]);
-        sum=sum+p[i];
-        
+        sum=sum+p[i]; 
     }
     avg=sum/size;
     printf("The sum is %f\n",sum);
