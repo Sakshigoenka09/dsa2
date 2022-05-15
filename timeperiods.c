@@ -11,7 +11,7 @@ int main()
     Class T2;
     printf("Enter the hours minutes and seconds for T1 ");
     scanf("%d:%d:%d",&T1.hours,&T1.minutes,&T1.seconds);
-    printf("Enter the hours minutes and seconds for T2 ");               //6.30.43
+    printf("Enter the hours minutes and seconds for T2 ");               
     scanf("%d:%d:%d",&T2.hours,&T2.minutes,&T2.seconds);   
     if(T1.seconds>T2.seconds)
     {
